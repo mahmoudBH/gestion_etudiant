@@ -1,0 +1,30 @@
+.navcontainer {
+    display: none; /* Masque par défaut */
+  }
+  
+  .navcontainer.open {
+    display: block; /* Affiche le conteneur lorsque le menu est ouvert */
+  }
+  
+  .nav {
+    background-color: #f8f9fa; /* Couleur d'arrière-plan */
+    padding: 10px;
+  }
+  
+  .nav-upper-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .nav-img {
+    width: 24px; /* Taille de l'image */
+    height: 24px; /* Taille de l'image */
+    margin-right: 10px; /* Espace entre l'image et le texte */
+  }
+  
